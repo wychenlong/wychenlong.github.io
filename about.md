@@ -19,5 +19,5 @@ title: "关于：About"
 ### 关于本站：
 
 
-* 模板及样式来源[Useful Paradigm](http://usefulparadigm.com/)
+* 模板及样式来源(https://github.com/LippiOuYang/LippiOuYang.github.io )
 
