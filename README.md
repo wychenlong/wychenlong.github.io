@@ -3,7 +3,7 @@
 
 ####博客地址
 
-http://coolshell.info
+http://wychenlong.github.io/
 
 ####使用本项目作为博客模板，仅需如下几步：
 
@@ -22,17 +22,10 @@ http://coolshell.info
 2. 多说的评论功能，官网:http://duoshuo.com/
 
 ####联系方式
+qq:315917525
 
-联系方式：qq(934107508), Email(ouyanglip@gmail.com) 
 
 
 ####使用本项目作模板的博客链接
+* https://github.com/LippiOuYang/LippiOuYang.github.io 
 
-* http://www.94geek.com  
-* http://www.haidaoxiaofei.me  
-* http://www.malphi.net  
-* http://happyaround.com  
-* http://tencentlocation.github.io  
-* http://wtaps.github.io 
-* http://maoshu.cc
-* (你的位置)  
