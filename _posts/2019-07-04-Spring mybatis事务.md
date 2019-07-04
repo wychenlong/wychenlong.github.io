@@ -1,5 +1,5 @@
 ---
-layout:     post
+layout:     _posts
 title:      事务与Mybatis一级缓存
 keywords:   事务, Mybatis, 缓存
 category:   Mybatis
