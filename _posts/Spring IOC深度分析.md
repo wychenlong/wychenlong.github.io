@@ -31,20 +31,20 @@ tags:		[java, spring]
 
 ## 3、设计与实现
 ### 3.1、工作流程
-- ![](ioc工作原理.png)
+- ![](/images/spring/ioc工作原理.png)
 
 ### 3.2、接口概况
 #### 3.2.1、容器接口
-![](IOC.jpg)
+![](/images/spring/IOC.jpg)
 
 #### 3.2.2、Context继承关系
-![](context_class.jpg)
+![](/images/spring/context_class.jpg)
 
 #### 3.2.3、Bean定义类图
-![](BeanDefine.jpg)
+![](/images/spring/BeanDefine.jpg)
 
 #### 3.2.4、Bean解析类图
-![](BeanParser.jpg)
+![](/images/spring/BeanParser.jpg)
 
 ### 3.3 接口设计理解
 #### 3.3.1 BeanFactory方法概览
@@ -94,7 +94,7 @@ public interface BeanFactory {
 
 ## 4、源码分析
 ### 4.1 Bean加载深度分析
-![](classpathContext时序.jpg)
+![](/images/spring/classpathContext时序.jpg)
 
 #### 4.1.1、构造方法
 ```java
