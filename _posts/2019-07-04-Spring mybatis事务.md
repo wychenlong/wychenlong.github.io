@@ -1,5 +1,5 @@
 ---
-layout:     _posts
+layout:     post
 title:      事务与Mybatis一级缓存
 keywords:   事务, Mybatis, 缓存
 category:   Mybatis
@@ -84,7 +84,6 @@ tags:		[java, Mybatis]
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <setting name="logImpl" value="LOG4J"/>
     </settings>
-  
 ``` 
 
 ## 2、4 一级缓存工作流程与原理
