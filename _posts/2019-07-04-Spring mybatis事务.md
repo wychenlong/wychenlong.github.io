@@ -1,3 +1,11 @@
+- layout:     post
+- title:      事务与Mybatis一级缓存
+- keywords:   事务, Mybatis, 缓存
+- category:   Mybatis
+- description: 事务相关概念总结，Mybatis 整体架构、一级缓存实现原理
+- tags:		[java, Mybatis]
+
+
 # 1、事务基础知识
 ## 1、1 事务定义
 + 数据库管理系统执行过程中的一个逻辑单位，由一个有限的数据库操作序列构成
@@ -38,7 +46,7 @@
 
 # 2、Mybatis
 ## 2、1 整体架构
-![](../images/spring/nybatis架构.jpg)
+![](/images/spring/nybatis架构.jpg)
 
 ## 2、2 项目结构
  ```java
@@ -80,7 +88,7 @@
 
 ## 2、4 一级缓存工作流程与原理
 ### 2、4、1 一级缓存类图
-+ ![](../images/spring/Mybatis.bmp)
++ ![](/images/spring/Mybatis.bmp)
 
 + SqlSession 
     + 1）mybatis中主要接口，该接口主要负责执行SQL并封装返回结果，可以获取mapper、管理事务；
@@ -206,7 +214,7 @@
 +  缓存在Session隔离，相互不影响，此案例出现脏数据
 
 ### 2、4、3一级缓存工作流程
-+ ![](../images/spring/Mybatis一级缓存.bmp)
++ ![](/images/spring/Mybatis一级缓存.bmp)
 
 
 ## 2、5  一级缓存总结
