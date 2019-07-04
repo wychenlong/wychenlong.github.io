@@ -1,10 +1,11 @@
+---
 - layout:     post
 - title:      事务与Mybatis一级缓存
 - keywords:   事务, Mybatis, 缓存
 - category:   Mybatis
 - description: 事务相关概念总结，Mybatis 整体架构、一级缓存实现原理
 - tags:		[java, Mybatis]
-
+---
 
 # 1、事务基础知识
 ## 1、1 事务定义
