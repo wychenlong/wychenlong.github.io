@@ -84,7 +84,7 @@ tags:		[java, Mybatis]
         <setting name="mapUnderscoreToCamelCase" value="true"/>
         <setting name="logImpl" value="LOG4J"/>
     </settings>
-``` 
+```
 
 ## 2、4 一级缓存工作流程与原理
 ### 2、4、1 一级缓存类图
@@ -104,13 +104,10 @@ tags:		[java, Mybatis]
 ```java
     SqlSession sqlSession = factory.openSession(true); // 自动提交事务
     StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);
-
     System.out.println(studentMapper.getStudentById(1));
     System.out.println(studentMapper.getStudentById(1));
     System.out.println(studentMapper.getStudentById(1));
-
     sqlSession.close();
-
 ``` 
 
 ```java
@@ -125,8 +122,8 @@ tags:		[java, Mybatis]
     StudentEntity{id=1, name='小明', age=16, className='null'}
     DEBUG [main] - Cache Hit Ratio [com.jd.jr.finetch.study.mybatis.mapper.StudentMapper]: 0.0
     StudentEntity{id=1, name='小明', age=16, className='null'}
-
 ``` 
+
 + 同一个Session，第一个打印数据查询数据库，第二、三个查询走缓存
 + 思考自动提交事务底层实现原理？
 
