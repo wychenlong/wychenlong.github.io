@@ -2,14 +2,14 @@
 layout:     post
 title:      spring ioc 原理
 keywords:   spring, IOC, 源码分析
-category:   spring
+category:   Java
 description: Spring IOC 源码深度分析，并总结其设计理念与思想
 tags:		[java, spring]
 ---
 
 # Spring IOC容器实现与源码分析
 ## 1、IOC位置
-![](spring-overview.png)
+![](/images/spring/spring-overview.png)
 
 -  核心容器包括spring-core、spring-beans、spring-context、spring-context-support、spring-expression，其中spring-core、spring-bean模块提供整个框架的基本功能，包含了IOC和依赖注入特性。本文也主要结合源码分析该部分，来看IOC设计的思想。
 
