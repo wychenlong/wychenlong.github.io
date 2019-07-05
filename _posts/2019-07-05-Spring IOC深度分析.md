@@ -31,11 +31,12 @@ tags:		[java, spring]
 
 ## 3、设计与实现
 ### 3.1、工作流程
-- ![](/images/spring/ioc工作原理.png)
+![](/images/spring/ioc工作原理.png)
 
 ### 3.2、接口概况
 #### 3.2.1、容器接口
 ![](/images/spring/IOC.jpg)
+
 
 #### 3.2.2、Context继承关系
 ![](/images/spring/context_class.jpg)
