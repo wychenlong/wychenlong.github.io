@@ -88,7 +88,7 @@ tags:		[java, Mybatis]
 
 ## 2、4 一级缓存工作流程与原理
 ### 2、4、1 一级缓存类图
-+ ![](/images/spring/Mybatis.bmp)
+![](/images/spring/Mybatis.bmp)
 
 + SqlSession 
     + 1）mybatis中主要接口，该接口主要负责执行SQL并封装返回结果，可以获取mapper、管理事务；
@@ -99,8 +99,9 @@ tags:		[java, Mybatis]
     + CachingExecutor来装饰前面的三个执行器目的就是用来实现缓存
 + MappedStatement
      + MappedStatement就是用来存放我们SQL映射文件中的信息包括sql语句，输入参数，输出参数等等，一个SQL节点对应一个MappedStatement对象。
+
 ### 2、4、2 案例实践
-### 案例1
+#### 案例1
 ```java
     SqlSession sqlSession = factory.openSession(true); // 自动提交事务
     StudentMapper studentMapper = sqlSession.getMapper(StudentMapper.class);

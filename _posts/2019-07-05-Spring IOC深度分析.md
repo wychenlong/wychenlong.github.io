@@ -2,7 +2,7 @@
 layout:     post
 title:      spring ioc 原理
 keywords:   spring, IOC, 源码分析
-category:   Java
+category:   spring
 description: Spring IOC 源码深度分析，并总结其设计理念与思想
 tags:		[java, spring]
 ---
