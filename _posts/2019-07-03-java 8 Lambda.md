@@ -2,7 +2,7 @@
 layout:     post
 title:      Lambda表达式
 keywords:   Java, lambda
-category:   Java
+category:   java
 description: java 8函数表达式学习
 tags:		[java]
 ---
